@@ -42,7 +42,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          password: ${{ secrets.DOCKER_TOCKEN }}
 
       # Step 7: Build Docker image
       - name: Build Docker image
