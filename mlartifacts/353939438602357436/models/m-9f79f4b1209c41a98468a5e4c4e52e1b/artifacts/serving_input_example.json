@@ -1,0 +1,12 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "area"
+    ],
+    "data": [
+      [
+        1500
+      ]
+    ]
+  }
+}
